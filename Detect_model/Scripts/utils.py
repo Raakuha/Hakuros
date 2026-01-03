@@ -26,13 +26,13 @@ def distance(point1, point2):
     dist = (dx**2 + dy**2)**0.5
     return dist
 
-def clamp (value, min, max):
-    if value < min:
-        return min
-    elif value > max:
-        return max
+def clamp (value, min_val, max_val):
+    if value < min_val:
+        return min_val
+    elif value > max_val:
+        return max_val
     else:
         return value
     
-    
+
     
