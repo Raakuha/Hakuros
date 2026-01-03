@@ -83,12 +83,15 @@ while True:
 
             past_y = curr_y
     else:
+
+        past_y = 0
         cursor.reset()
+
 
     cv2.imshow("Hakuros", frame)
 
     key = cv2.waitKey(1)
-    if key == ord('x'):
+    if cv2.waitKey(1) & 0xFF == ord('x'):
         break
 cap.release()
 cv2.destroyAllWindows()
