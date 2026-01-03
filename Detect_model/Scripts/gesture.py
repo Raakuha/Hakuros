@@ -1,5 +1,5 @@
 import time
-
+#gesture deteksi
 last_swipe_time = 0
 SWIPE_COOLDOWN = 0.3
 

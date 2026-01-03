@@ -1,5 +1,5 @@
 import pyautogui
-
+# cursor movement
 class CursorController:
     def __init__(self, smoothing_factor = 0.8):
         self.smoothing_factor = smoothing_factor

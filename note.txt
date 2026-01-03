@@ -1,0 +1,16 @@
+Proyek apa ini?
+
+Hakuros = Hand kurusor 
+
+intinya pengen menggeser krusor dengan hanya menunjuk memakai jari pake bantuan kamera ,
+
+Objektif:
+
+1. Dapat scan jari dengan benar
+2. Dapat mengakses krusor dengan jari 
+
+movement:
+1. Klik kanan = pinch (jempol dengan indeks telunjuk)
+2. Klik kiri = telapak tangan ke genggaman
+3. Geser kursor = pergerakan tangan 
+4. scroll = telapak tangan swap ke atas - bawah

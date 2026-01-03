@@ -1,7 +1,7 @@
 import os
 import numpy as np
 from ultralytics import YOLO
-
+# load model
 path = r"D:\Projek\Hakuros\Detect_model\best.pt"
 
 def load_model(path : str) -> YOLO:
