@@ -8,11 +8,11 @@ import time
 import pyautogui
 
 PATH = r"D:\Projek\Hakuros\Detect_model\best.pt"
-SMOOTHING_FACTOR = 0.65
-PINCH_THRESHOLD = 40
-FIST_THRESHOLD = 45
+SMOOTHING_FACTOR = 0.7
+PINCH_THRESHOLD = 30
+FIST_THRESHOLD = 50
 SWIPE_THRESHOLD = 50
-CLICK_COOLDOWN = 0.55
+CLICK_COOLDOWN = 0.50
 
 
 model = load_model(PATH)
